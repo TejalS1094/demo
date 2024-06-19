@@ -1,0 +1,35 @@
+{
+  "name": "kick-punch-bite-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.19",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.4.1",
+    "axios": "^1.7.2",
+    "date-fns": "^3.6.0",
+    "formik": "^2.4.6",
+    "lucide-react": "^0.372.0",
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-tabs": "^6.0.2",
+    "sass": "^1.75.0",
+    "stripe": "^15.8.0",
+    "swiper": "^11.1.1",
+    "yup": "^1.4.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
